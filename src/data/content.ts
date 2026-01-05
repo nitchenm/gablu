@@ -19,6 +19,36 @@ export const siteContent = {
     subtitle: "Sonido • Atmósfera • Frecuencia", // Palabras más abstractas y artísticas
     ctaPrimary: "Escuchar Último Single", // Opcional, si usas botones en el hero
   },
+  services: {
+    title: "Servicios",
+    subtitle: "Ofrezco una gama de servicios artísticos y técnicos para llevar tu proyecto al siguiente nivel.",
+    items: [
+      {
+        icon: Briefcase,
+        title: "Producción Musical",
+        price: "Desde $500",
+        description: "Producción completa de singles o EPs, desde la composición inicial hasta la mezcla final."
+      },
+      {
+        icon: Scissors,
+        title: "Edición y Mezcla",
+        price: "Desde $250",
+        description: "Servicios de edición, afinación vocal y mezcla profesional para tus pistas grabadas."
+      },
+      {
+        icon: Star,
+        title: "Diseño Sonoro para Proyectos",
+        price: "Consultar",
+        description: "Creación de paisajes sonoros y música original para videos, podcasts o instalaciones."
+      },
+      {
+        icon: Clock,
+        title: "Asesoría de Proyecto",
+        price: "$100/hr",
+        description: "Consultoría creativa y técnica para ayudarte a definir y alcanzar tu visión artística."
+      }
+    ]
+  },
   
   // Aquí mostramos Singles, Portadas de álbumes o Fotos de shows
   portfolio: [
