@@ -1,5 +1,12 @@
 import { siteContent } from '../../data/content';
 
+interface Service {
+  icon: React.ElementType;
+  title: string;
+  price: string;
+  description: string;
+}
+
 export const Services = () => {
   const { services } = siteContent;
 
@@ -16,7 +23,7 @@ export const Services = () => {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {services.items.map((service, index) => {
+          {services.items.map((service: Service, index: number) => {
             const Icon = service.icon;
             return (
               <div 

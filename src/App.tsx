@@ -34,6 +34,7 @@ function App() {
         </section>
 
         <Portfolio />
+        <Services />
         <ContactForm />
       </main>
 
